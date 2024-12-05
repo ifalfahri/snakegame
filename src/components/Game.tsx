@@ -18,7 +18,6 @@ export default function Game() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const [snake, setSnake] = useState([{ x: 10, y: 10 }])
   const [food, setFood] = useState({ x: 5, y: 5 })
-  const [dir, setDir] = useState(DIRECTIONS.RIGHT)
   const [gameOver, setGameOver] = useState(false)
   const [gameStarted, setGameStarted] = useState(false)
   const [score, setScore] = useState(0)
