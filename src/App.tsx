@@ -1,4 +1,4 @@
-import Game from './components/game'
+import Game from './components/Game'
 import GitHubButton from './components/GithubButton'
 
 export default function Home() {
