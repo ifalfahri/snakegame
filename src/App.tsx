@@ -1,4 +1,5 @@
-import Game from './components/Game'
+import Game from './components/game'
+import GitHubButton from './components/GithubButton'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       </h1>
       <Game />
       <div className="mt-8">
+        <GitHubButton />
       </div>
     </main>
   )
