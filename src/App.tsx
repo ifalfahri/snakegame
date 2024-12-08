@@ -10,7 +10,6 @@ export default function Home() {
         </h1>
         <GitHubButton />
       </div>
-
       <Game />
     </main>
   );
